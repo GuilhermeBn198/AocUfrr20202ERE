@@ -7,22 +7,30 @@
 # vmap work rtl_work
 # Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
 # vmap work rtl_work 
-# Copying D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vcom -93 -work work {E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd}
+# vcom -93 -work work {C:/Github/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd}
 # Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 21:43:53 on Mar 21,2021
-# vcom -reportprogress 300 -93 -work work E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd 
+# Start time: 15:54:57 on Mar 22,2021
+# vcom -reportprogress 300 -93 -work work C:/Github/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd 
 # -- Loading package STANDARD
-# init_dbinfo() DATABASE ERROR: (sqlite3_open E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
-# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
-# ** Fatal: (vcom-9) Problem while writing token file "E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/simulation/modelsim/rtl_work/_temp/vcom29qstc".
-# ** Note: E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd(2): VHDL Compiler exiting
-# End time: 21:43:53 on Mar 21,2021, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# ** Error: D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/vcom failed.
-# Error in macro ./and_gate_run_msim_rtl_vhdl.do line 8
-# D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/vcom failed.
-#     while executing
-# "vcom -93 -work work {E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd}"
+# -- Compiling entity and_gate
+# -- Compiling architecture main of and_gate
+# End time: 15:54:57 on Mar 22,2021, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.and_gate
+# vsim work.and_gate 
+# Start time: 15:55:51 on Mar 22,2021
+# Loading std.standard
+# Loading work.and_gate(main)
+do C:/Github/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/simulation/modelsim/wave.do
+# .main_pane.wave.interior.cs.body.pw.wf
+# Editable Wave items are not compatible with the wave window's standard undo-redo.  Standard undo-redo has been disabled.
+# 0
+add wave -position insertpoint  \
+sim:/and_gate/z
+run
+# End time: 15:57:40 on Mar 22,2021, Elapsed time: 0:01:49
+# Errors: 0, Warnings: 0
