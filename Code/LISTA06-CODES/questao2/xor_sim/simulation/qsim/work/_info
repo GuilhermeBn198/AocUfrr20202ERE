@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f MIXED_VERSIONS
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Github/AocUfrr20202ERE/Code/LISTA06-CODES/questao2/xor_sim/simulation/qsim
+vp_xor
+Z1 !s110 1616448536
+!i10b 1
+!s100 Uj`7MB>V9RK9fH;i9RXGB0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IifY?H2@]<m41STKkK6Yoi3
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1616448533
+8p_xor.vo
+Fp_xor.vo
+!i122 2
+L0 32 86
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1616448536.000000
+!s107 p_xor.vo|
+!s90 -work|work|p_xor.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+Ep_xor_vhd_vec_tst
+Z8 w1616448502
+Z9 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z10 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+!i122 1
+R0
+Z11 8Waveform.vwf.vht
+Z12 FWaveform.vwf.vht
+l0
+L32 1
+VSbj]jGa5RAo4QabG;A=F>0
+!s100 =fRFCe;UXPXb:^8>8JG9R3
+Z13 OV;C;2020.1;71
+32
+Z14 !s110 1616448509
+!i10b 1
+Z15 !s108 1616448509.000000
+Z16 !s90 -work|work|Waveform.vwf.vht|
+Z17 !s107 Waveform.vwf.vht|
+!i113 1
+R6
+Z18 tExplicit 1 CvgOpt 0
+Ap_xor_arch
+R9
+R10
+DEx4 work 17 p_xor_vhd_vec_tst 0 22 Sbj]jGa5RAo4QabG;A=F>0
+!i122 1
+l47
+L34 46
+VOEhH8ROJ7lZ<:RC8QH[HP3
+!s100 R[XTT_cR>D[TkTNW[nzVQ3
+R13
+32
+R14
+!i10b 1
+R15
+R16
+R17
+!i113 1
+R6
+R18
+vp_xor_vlg_vec_tst
+R1
+!i10b 1
+!s100 j55YB><[l[EAQ<^3UQb2K0
+R2
+I<3encm_gK14@g^WhXRPil3
+R3
+R0
+w1616448530
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 36
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R6
+R7
