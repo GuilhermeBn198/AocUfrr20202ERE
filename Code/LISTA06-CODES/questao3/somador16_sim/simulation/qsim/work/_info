@@ -1,0 +1,57 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Github/AocUfrr20202ERE/Code/LISTA06-CODES/questao3/somador16_sim/simulation/qsim
+vsomador16
+!s110 1616450244
+!i10b 1
+!s100 H<]<FL8=k=ZT?X?40gUIz2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IO:o3S40K2cgn>mKdSkW[@1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1616450241
+8somador16.vo
+Fsomador16.vo
+!i122 2
+L0 32 1076
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1616450244.000000
+!s107 somador16.vo|
+!s90 -work|work|somador16.vo|
+!i113 1
+Z4 o-work work
+Z5 tCvgOpt 0
+vsomador16_vlg_vec_tst
+!s110 1616450245
+!i10b 1
+!s100 ;eUR9n<Po1j5jbDDX3RO21
+R1
+Ij:MAS[MFfYkL6QfM[Nf;n0
+R2
+R0
+w1616450238
+8Waveform.vwf.vt
+FWaveform.vwf.vt
+!i122 3
+L0 30 216
+R3
+r1
+!s85 0
+31
+!s108 1616450245.000000
+!s107 Waveform.vwf.vt|
+!s90 -work|work|Waveform.vwf.vt|
+!i113 1
+R4
+R5
