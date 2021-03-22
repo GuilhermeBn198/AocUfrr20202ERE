@@ -1,0 +1,28 @@
+# Reading pref.tcl
+# do and_gate_run_msim_rtl_vhdl.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vcom -93 -work work {E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd}
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 21:43:53 on Mar 21,2021
+# vcom -reportprogress 300 -93 -work work E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/simulation/modelsim/rtl_work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/simulation/modelsim/rtl_work/_temp/vcom29qstc".
+# ** Note: E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd(2): VHDL Compiler exiting
+# End time: 21:43:53 on Mar 21,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/vcom failed.
+# Error in macro ./and_gate_run_msim_rtl_vhdl.do line 8
+# D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/vcom failed.
+#     while executing
+# "vcom -93 -work work {E:/RepositóriosGitHub/AocUfrr20202ERE/Code/curso-VHDL-FelipePfirmer/vhdl_and_gate/and_gate.vhd}"
