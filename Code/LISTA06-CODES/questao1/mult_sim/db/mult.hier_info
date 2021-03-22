@@ -1,0 +1,17 @@
+|mult
+in_port[0] => Mux0.IN1
+in_port[0] => Mux1.IN1
+in_port[1] => Mux0.IN0
+in_port[1] => Mux1.IN0
+in_portA[0] => Mux1.IN2
+in_portA[1] => Mux0.IN2
+in_portB[0] => Mux1.IN3
+in_portB[1] => Mux0.IN3
+in_portC[0] => Mux1.IN4
+in_portC[1] => Mux0.IN4
+in_portD[0] => Mux1.IN5
+in_portD[1] => Mux0.IN5
+out_port[0] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+out_port[1] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
