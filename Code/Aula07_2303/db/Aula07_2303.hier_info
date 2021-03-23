@@ -1,0 +1,5 @@
+|MNot
+a => z.DATAIN
+z << a.DB_MAX_OUTPUT_PORT_TYPE
+
+
