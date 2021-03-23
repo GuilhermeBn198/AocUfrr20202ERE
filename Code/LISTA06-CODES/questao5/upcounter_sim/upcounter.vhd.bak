@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity upcounter is
+    port(
+        Clock : in STD_LOGIC;
+        CLR : in STD_LOGIC;
+        Q : out STD_LOGIC_VECTOR(3 down to 0)
+    );
+end upcounter;
+
+architecture behavior of upcounter is
+signal tmp: std_logic_vector(3 down to 0);
+begin
+    process(Clock, CLR)
+    begin
+        if (CLR='1') then
+            tmp <="0000";
+            elsif (Clock='1' and Clock'event)  then
+                tmp <= tmp+1;
+        end if ;
+    end process;
+    Q <= tmp;
+end behavior;
