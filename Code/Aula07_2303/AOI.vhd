@@ -25,7 +25,7 @@ architecture logic of AOI is
     );
     end component mult2x1;
 
-    signal SELB : std_logic; 
+     signal SELB : std_logic;
 -- process + port map
 begin
     G1: mult2x1 port map ( IA, SELB, ISE, O );

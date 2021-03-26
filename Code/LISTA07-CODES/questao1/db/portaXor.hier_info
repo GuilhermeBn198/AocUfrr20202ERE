@@ -1,0 +1,36 @@
+|portaXor
+in_port_A => PNot:n_A.in_port_A
+in_port_A => PAnd:p_bn.in_port_A
+in_port_B => PNot:n_B.in_port_A
+in_port_B => PAnd:p_an.in_port_B
+out_port <= POr:p_o.out_port
+
+
+|portaXor|PNot:n_A
+in_port_A => out_port.DATAIN
+out_port <= in_port_A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|portaXor|PNot:n_B
+in_port_A => out_port.DATAIN
+out_port <= in_port_A.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|portaXor|PAnd:p_an
+in_port_A => out_port.IN0
+in_port_B => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|portaXor|PAnd:p_bn
+in_port_A => out_port.IN0
+in_port_B => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|portaXor|POr:p_o
+in_port_A => out_port.IN0
+in_port_B => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+

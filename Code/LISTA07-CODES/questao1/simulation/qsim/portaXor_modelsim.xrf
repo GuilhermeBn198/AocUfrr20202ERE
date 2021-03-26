@@ -1,0 +1,15 @@
+vendor_name = ModelSim
+source_file = 1, C:/Github/AocUfrr20202ERE/Code/LISTA07-CODES/questao1/portaXor.vhd
+source_file = 1, C:/Github/AocUfrr20202ERE/Code/LISTA07-CODES/questao1/POr.vhd
+source_file = 1, C:/Github/AocUfrr20202ERE/Code/LISTA07-CODES/questao1/PAnd.vhd
+source_file = 1, C:/Github/AocUfrr20202ERE/Code/LISTA07-CODES/questao1/PNot.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/20.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Github/AocUfrr20202ERE/Code/LISTA07-CODES/questao1/db/portaXor.cbx.xml
+design_name = portaXor
+instance = comp, \out_port~output\, out_port~output, portaXor, 1
+instance = comp, \in_port_A~input\, in_port_A~input, portaXor, 1
+instance = comp, \in_port_B~input\, in_port_B~input, portaXor, 1
+instance = comp, \p_o|out_port~0\, p_o|out_port~0, portaXor, 1
