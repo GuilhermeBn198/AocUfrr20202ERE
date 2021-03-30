@@ -1,31 +1,14 @@
 # do mult.do
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:56:06 on Mar 22,2021
-# vlog -work work mult.vo 
-# -- Compiling module mult
-# 
-# Top level modules:
-# 	mult
-# End time: 16:56:06 on Mar 22,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
-# Start time: 16:56:07 on Mar 22,2021
-# vlog -work work Waveform.vwf.vt 
-# -- Compiling module mult_vlg_vec_tst
-# 
-# Top level modules:
-# 	mult_vlg_vec_tst
-# End time: 16:56:07 on Mar 22,2021, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.mult_vlg_vec_tst 
-# Start time: 16:56:07 on Mar 22,2021
-# Loading work.mult_vlg_vec_tst
-# Loading work.mult
-# Loading cyclonev_ver.cyclonev_io_obuf
-# Loading cyclonev_ver.cyclonev_io_ibuf
-# Loading cyclonev_ver.cyclonev_lcell_comb
-# after#23
-# ** Note: $finish    : Waveform.vwf.vt(53)
-#    Time: 1 us  Iteration: 0  Instance: /mult_vlg_vec_tst
-# End time: 16:56:08 on Mar 22,2021, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vcom 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 19:46:52 on Mar 29,2021
+# vcom -work work mult.vho 
+# -- Loading package STANDARD
+# init_dbinfo() DATABASE ERROR: (sqlite3_open E:/RepositóriosGitHub/AocUfrr20202ERE/Code/LISTA06-CODES/questao1/mult_sim/simulation/qsim/work/_lib.qdb): unable to open database file
+# mtilibWrite(): INTERNAL ERROR: Unexpected null object encountered
+# ** Fatal: (vcom-9) Problem while writing token file "E:/RepositóriosGitHub/AocUfrr20202ERE/Code/LISTA06-CODES/questao1/mult_sim/simulation/qsim/work/_temp/vcomcfy739".
+# ** Note: mult.vho(30): VHDL Compiler exiting
+# End time: 19:46:52 on Mar 29,2021, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 0
+# ** Error: D:/Programas64x/Intel_Quartus/modelsim_ase/win32aloem/vcom failed.
+# Executing ONERROR command at macro ./mult.do line 3

@@ -1,0 +1,35 @@
+|mult4x2x1
+S1 => mult2x1:mult_3.in_port
+S0 => mult2x1:mult_1.in_port
+S0 => mult2x1:mult_2.in_port
+A => mult2x1:mult_1.inA
+B => mult2x1:mult_1.inB
+C => mult2x1:mult_2.inA
+D => mult2x1:mult_2.inB
+Z <= mult2x1:mult_3.out_port
+
+
+|mult4x2x1|mult2x1:mult_1
+in_port => out_port.IN0
+in_port => out_port.IN0
+inA => out_port.IN1
+inB => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult4x2x1|mult2x1:mult_2
+in_port => out_port.IN0
+in_port => out_port.IN0
+inA => out_port.IN1
+inB => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mult4x2x1|mult2x1:mult_3
+in_port => out_port.IN0
+in_port => out_port.IN0
+inA => out_port.IN1
+inB => out_port.IN1
+out_port <= out_port.DB_MAX_OUTPUT_PORT_TYPE
+
+

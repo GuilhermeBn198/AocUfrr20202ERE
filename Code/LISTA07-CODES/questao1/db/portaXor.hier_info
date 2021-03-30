@@ -3,7 +3,7 @@ in_port_A => PNot:n_A.in_port_A
 in_port_A => PAnd:p_bn.in_port_A
 in_port_B => PNot:n_B.in_port_A
 in_port_B => PAnd:p_an.in_port_B
-out_port <= POr:p_o.out_port
+out_port << POr:p_o.out_port
 
 
 |portaXor|PNot:n_A
